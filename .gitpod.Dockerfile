@@ -17,6 +17,6 @@ RUN sudo apt-get update \
         julia \
     && sudo rm -rf /var/lib/apt/lists/*
 
-RUN BREW install R
+RUN brew install R
 # Give control back to Gitpod Layer
 USER root
